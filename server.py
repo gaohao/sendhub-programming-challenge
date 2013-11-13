@@ -13,7 +13,7 @@ schema = {
         "recipients": {
             "type": "array",
             "minItems": 1,
-            "items": {"type": "string", "pattern": "^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$"},
+            "items": {"type": "string", "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4}$"},
             "uniqueItems": True
         }
     },
