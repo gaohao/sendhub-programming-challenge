@@ -33,6 +33,7 @@ def routing_service():
     return jsonify({'message' : 'SendHubRocks', 'routes': routes})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
+    pass
 
 # curl -X POST -H "Content-Type: application/json" -d '{"message": "SendHub Rocks", "recipients": ["+15555555556","+15555555555","+15555555554","+15555555553","+15555555552","+15555555551"]}' http://127.0.0.1:5000/api/sendhub/v1.0/routes
