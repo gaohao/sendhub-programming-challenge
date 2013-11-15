@@ -1,6 +1,6 @@
 sendhub-programming-challenge
 =============================
-Hosted on heroku:  
+<b>Hosted on heroku:</b>  
 http://sendhubapi.herokuapp.com/
 
 * greedy approach to calaculate the routes
@@ -11,12 +11,12 @@ http://sendhubapi.herokuapp.com/
 
 This problem is actually a claasic change-making problem. In our use case, a set of {1, 5, 10, 25}, the problem is easily solved by a greedy algorithm. The time complexity is 4 * n, n is the number of recipient.
 
-Further thoughts:
+<b>Further thoughts:</b>    
 From the wikipedia, "If the number of coin denominations is three or more, no explicit formula is known; but, for any fixed number of coin denominations, there is an algorithm computing the Frobenius number in polynomial time (in the logarithms of the coin denominations forming an input). No known algorithm is polynomial time in the number of coin denominations, and the general problem, where the number of coin denominations may be as large as desired, is NP-hard"
 
 So if we know the total number of the categories, we can solve the problem in polynomial time by using dynamic programming.
 
-Reference:  
+<b>Reference:</b>  
 http://en.wikipedia.org/wiki/Change-making_problem  
 http://en.wikipedia.org/wiki/Coin_problem   
 
